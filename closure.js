@@ -1,7 +1,7 @@
 function makeFunc() {
   var name = "Mozilla";
   function displayName() {
-    alert(name);
+    console.log(name);
   }
   return displayName;
 }
