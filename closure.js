@@ -1,6 +1,7 @@
 function foo() {
     var bar;
     quux = 6;
+    return zip;
     function zip() {
         bar = true;
         var quux = 10;
