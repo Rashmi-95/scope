@@ -1,10 +1,8 @@
-function makeFunc() {
-  var name = "Mozilla";
-  function displayName() {
-    console.log(name);
-  }
-  return displayName;
+function foo() {
+    var bar;
+    quux = 6;
+    function zip() {
+        bar = true;
+        var quux = 10;
+    }
 }
-
-var myFunc = makeFunc();
-myFunc();
