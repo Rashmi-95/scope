@@ -1,10 +1,7 @@
-var foo = 6;
 function foo() {
     var bar;
-    var scopedVar = 1;
+    quux = 6;
     function zip() {
-        var quux;
-        foo = 2;
+        var quux = 10;
     }
 }
-console.log(foo);
